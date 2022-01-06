@@ -2,7 +2,7 @@
 <robot name="aur" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find aur_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find aur_description)/urdf/aur.trans"/>
+<!--<xacro:include filename="$(find aur_description)/urdf/aur.trans"/>-->
 
 <xacro:include filename="$(find aur_description)/gazebo/aur_materials.gazebo" />
 <xacro:include filename="$(find aur_description)/gazebo/aur_physics.gazebo" />
@@ -164,7 +164,7 @@
   <visual>
     <origin rpy="0 0 0" xyz="-0.225 -0.0002 -0.25"/>
     <geometry>
-      <mesh filename="package://aur_description/meshes/lid.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://aur_description/meshes/lid.stl" scale="1.00 1.00 1.00"/>
     </geometry>
     <material name="white"/>
   </visual>
@@ -204,9 +204,9 @@
     <inertia ixx="0.003384" ixy="-9e-06" ixz="-0.0" iyy="0.000771" iyz="0.0" izz="0.004153"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="0.035 -0.015 -0.28"/>
+    <origin rpy="0 0 0" xyz="0.035 -0.015 -0.266"/>
     <geometry>
-      <mesh filename="package://aur_description/meshes/electronics_lid.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://aur_description/meshes/electronics_lid.stl" scale="1.00 1.00 1.00"/>
     </geometry>
     <material name="blue"/>
   </visual>

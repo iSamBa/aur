@@ -2,8 +2,9 @@
 <robot name="aur" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
 <xacro:property name="body_color" value="Gazebo/White" />
-<xacro:property name="blue_color" value="Gazebo/Grey" />
+<xacro:property name="blue_color" value="Gazebo/Blue" />
 <xacro:property name="lidar_color" value="Gazebo/Black" />
+<xacro:property name="tyre_color" value="Gazebo/White" />
 
 <!-- ############# WHITE COLOR ############# -->
 
@@ -12,11 +13,11 @@
 </gazebo>
 
 <gazebo reference="right_tyre">
-  <material>${body_color}</material>
+  <material>${tyre_color}</material>
 </gazebo>
 
 <gazebo reference="left_tyre">
-  <material>${body_color}</material>
+  <material>${tyre_color}</material>
 </gazebo>
 
 <gazebo reference="lid">
