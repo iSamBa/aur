@@ -2,7 +2,6 @@
 <robot name="aur" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find aur_description)/urdf/materials.xacro" />
-<!--<xacro:include filename="$(find aur_description)/urdf/aur.trans"/>-->
 
 <xacro:include filename="$(find aur_description)/gazebo/aur_materials.gazebo" />
 <xacro:include filename="$(find aur_description)/gazebo/aur_physics.gazebo" />
