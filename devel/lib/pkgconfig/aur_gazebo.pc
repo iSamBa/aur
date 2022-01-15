@@ -1,0 +1,8 @@
+prefix=/home/mohamad/aur/devel
+
+Name: aur_gazebo
+Description: Description of aur_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

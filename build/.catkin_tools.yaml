@@ -1,0 +1,6 @@
+devel_space: /home/mohamad/aur/devel
+install: false
+install_space: /home/mohamad/aur/install
+profile: default
+source_space: /home/mohamad/aur/src
+workspace: /home/mohamad/aur

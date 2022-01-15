@@ -1,0 +1,8 @@
+prefix=/home/mohamad/aur/devel
+
+Name: aur_description
+Description: Description of aur_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
